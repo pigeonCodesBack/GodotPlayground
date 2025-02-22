@@ -6,6 +6,24 @@
 
 # The above only works properly for Git 2.10+, so for older versions
 # we need to manually list the binary files we don't want modified.
+
+# audio
 *.mp3 binary
-*.png binary
+*.ogg binary
+*.flac binary
+*.aac binary
+
+# image
 *.hdr binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+
+# video
+*.mp4 binary
+
+# model
+*.obj binary
+*.fbx binary
+*.dts binary
+*.blend binary
